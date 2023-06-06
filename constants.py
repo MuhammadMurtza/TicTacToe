@@ -1,0 +1,25 @@
+from enum import Enum
+
+
+class GameMode(Enum):
+    EASY = 1
+    MEDIUM = 2
+    HARD = 3
+
+
+WIDTH = 600
+HEIGHT = 600
+
+ROWS = 3
+COLS = 3
+SQUARESPACE = WIDTH // COLS
+LINE_WIDTH = 10
+CIRCLE_WIDTH = 10
+CROSS_WIDTH = 5
+
+RADIUS = SQUARESPACE // 4
+
+BG_COLOR = (0, 45, 98)
+LINE_COLOR = (39, 75, 117)
+CIRCLE_COLOR = (175, 219, 245)
+CROSS_COLOR = (255, 255, 255)
